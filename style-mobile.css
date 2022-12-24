@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 98%);
+}
+
+.container__main {
+    margin: 40px;
+    min-width: 300px;
+    font-family: 'Poppins';
+}
+
+.container__title__paragraph {
+    text-align: center;
+}
+
+.ligther {
+    font-weight: 200;
+}
+
+.title {
+    font-weight: 600;
+}
+
+.paragraph {
+    font-size: .9rem;
+    margin: 15px 0 40px 0;
+    color: hsl(229, 6%, 66%);
+}
+
+.cards {
+    background-color: #FFF;
+    position: relative;
+    padding: 25px;
+    height: 175px;
+    margin: 25px auto;
+    width: 85%;
+    border-radius: 10px;
+    box-shadow: 0px 16px 18px -17px rgba(0,0,0,0.75);
+}
+
+.title__card {
+    color: hsl(234, 12%, 34%);
+    font-size: 1.1rem;
+}
+
+.paragraph__card {
+    color: hsl(229, 6%, 66%);
+    font-size: .75rem;
+    margin-top: 7px;
+}
+
+.icon__card {
+    width: 40px;
+    position: absolute;
+    right: 25px;
+    bottom: 25px;
+}
+
+.card__1 {
+    border-top: 3px solid hsl(180, 62%, 55%);
+}
+
+.card__2 {
+    border-top: 3px solid hsl(0, 78%, 62%);
+}
+
+.card__3 {
+    border-top: 3px solid hsl(34, 97%, 64%);
+}
+
+.card__4 {
+    border-top: 3px solid hsl(212, 86%, 64%);
+}
